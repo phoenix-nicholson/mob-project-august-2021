@@ -10,7 +10,7 @@ const nounEightInput = document.getElementById('noun-eight-input');
 
 const adjectiveOneInput = document.getElementById('adjective-one-input');
 
-const conjuctionInput = document.getElementById('conjunction-input');
+const conjunctionInput = document.getElementById('conjunction-input');
 
 const verbOneInput = document.getElementById('verb-one-input');
 const verbTwoInput = document.getElementById('verb-two-input');
@@ -35,7 +35,7 @@ const nounEight = document.getElementById('noun-eight');
 
 const adjectiveOne = document.getElementById('adjective-one');
 
-const conjuction = document.getElementById('conjunction');
+const conjunction = document.getElementById('conjunction');
 
 const verbOne = document.getElementById('verb-one');
 const verbTwo = document.getElementById('verb-two');
@@ -55,7 +55,34 @@ const commandTwo = document.getElementById('command-two');
 // set event listeners 
 button.addEventListener('click', () => {
     commandOne.textContent = commandOneInput.value;
+    commandTwo.textContent = commandTwoInput.value;
+
+    nounOne.textContent = nounOneInput.value;
+    nounTwo.textContent = nounTwoInput.value;
+    nounThree.textContent = nounThreeInput.value;
+    nounFour.textContent = nounFourInput.value;
+    nounFive.textContent = nounFiveInput.value;
+    nounSix.textContent = nounSixInput.value;
+    nounSeven.textContent = nounSevenInput.value;
+    nounEight.textContent = nounEightInput.value;
+
+    
+    verbOne.textContent = verbOneInput.value;
+    verbTwo.textContent = verbTwoInput.value;
+    verbThree.textContent = verbThreeInput.value;
+    verbFour.textContent = verbFourInput.value;
+
+
+    prepositionOne.textContent = prepositionOneInput.value;
+    prepositionTwo.textContent = prepositionTwoInput.value;
+
+    adjectiveOne.textContent = adjectiveOneInput.value;
+
+    conjunction.textContent = conjunctionInput.value;
+    
 });
+
+
     // get user input(s)
     // do any needed work with the value(s)
     // update DOM to reflect new value(s)
