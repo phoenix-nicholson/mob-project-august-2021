@@ -1,4 +1,5 @@
 // import functions
+const paragraph = document.getElementById('paragraph');
 const nounOneInput = document.getElementById('noun-one-input');
 const nounTwoInput = document.getElementById('noun-two-input');
 const nounThreeInput = document.getElementById('noun-three-input');
@@ -22,6 +23,7 @@ const prepositionTwoInput = document.getElementById('preposition-two-input');
 
 const commandOneInput = document.getElementById('command-one-input');
 const commandTwoInput = document.getElementById('command-two-input');
+
 
 // Span
 const nounOne = document.getElementById('noun-one');
@@ -79,6 +81,9 @@ button.addEventListener('click', () => {
     adjectiveOne.textContent = adjectiveOneInput.value;
 
     conjunction.textContent = conjunctionInput.value;
+
+    paragraph.style.visibility = 'visible';
+    console.log('hello');
     
 });
 
